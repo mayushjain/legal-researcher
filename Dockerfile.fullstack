@@ -14,7 +14,7 @@ RUN npm run build
 ########################################################################
 # Stage 2: Final image — backend + frontend + nginx
 ########################################################################
-FROM python:3.11-slim
+FROM python:3.14-slim
 
 WORKDIR /usr/src/app
 
